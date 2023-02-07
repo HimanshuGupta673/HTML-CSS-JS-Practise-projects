@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container " style="border: 2px solid black">
+    <div class="row nav">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="icon/logo.png" width="50px" alt="">
+          <!-- <h2 style="font-weight:bold" >bonsai</h2> -->
+          <a class="navbar-brand brand" href="#"><h2 style="font-weight:bold" >bonsai</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                  aria-expanded="false">
+                  Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                  aria-expanded="false">
+                  Templates
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Reviews</a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <button class="btn btn-outline-success mx-3" type="submit">LOG IN</button>
+              <button class="btn btn-success" style="background-color: rgb(1 179 137)" type="submit">START FREE</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+      
+    <!-- section 2 -->
+    <div class="row section2 my-5 ">
+      <div class="col">
+        <h1>Plans & Pricing</h1>
+      </div>
+      <div class="col d-flex toggle">
+        <h3>Monthly</h3>
+        <label class="switch mx-4">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <h3>Yearly</h3>
+      </div>
+    </div>
+
+    <!-- section 3 -->
+    <div class="row d-md-flex  section3">
+
+      <div class="col-4 pricebox">
+        <div class="row">
+          <h4>Workflow</h4>
+        </div>
+        <div class="row">
+          <h3>$19/MONTH</h3>
+        </div>
+        <hr class="bg-success">
+        <div class="row pb">
+          <ul style="list-style: none">
+            <li>Unlimited clients & projects</li>
+            <li>Proposals</li>
+            <li>Contracts</li>
+            <li>Invoicing & Payments</li>
+            <li>Client CRM</li>
+            <li>Project Management</li>
+            <li>Task & Time Tracking</li>
+            <li>iOS,Android,Chrome,& Mac Apps</li>
+          </ul>
+        </div>
+        <div class="row pbb" style="justify-content: center">
+          <a href="start.txt"><button class="btn btn-success " style="background-color: rgb(1 179 137)">START FREE</button></a>
+        </div>
+      </div>
+    
+      <div class="col-4 pricebox px-5" style="margin: 14px 0px">
+        <div class="row">
+          <h4>Workflow Plus</h4>
+        </div>
+        <div class="row d-flex">
+          <h3>$29/MONTH</h3>
+        </div>
+        <hr class="bg-success">
+        <div class="row pb">
+          <ul style="list-style: none">
+            <li>Everything in workflow & plus...</li>
+            <li>White-labelled client experience </li>
+            <li>Client forms & questionnaries<span class="badge text-bg-primary" style="font-size: 6.9px">New</span>
+            </li>
+            <li>Workflow automations</li>
+            <li>Subcontracting (client mode)</li>
+            <li>Calendly integration</li>
+            <li>Client portal</li>
+            <li>Priority support</li>
+          </ul>
+        </div>
+        <div class="row pbb" style="justify-content: center">
+          <a href="start.txt"><button class="btn btn-success " style="background-color: rgb(1 179 137)">START FREE</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 4 -->
+    <div class="row section44">
+      <div class="col section4">
+        <div class="jumbotron">
+          <div class="heading">
+            <h3>Super charge your work with add-ons</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 5 -->
+    <div class="row d-flex flex-column mb-5 section5">
+      <div class="col d-flex my-2 s5b">
+        <div class="col-11">
+          <h3>Collaborators</h3>
+          <p>Invite other users to specific projects for limited access and functionality</p>
+        </div>
+        <div class="col-1 s5bsm">
+          <h2>FREE</h2>
+        </div>
+      </div>
+      <div class="col d-flex my-2 s5b">
+        <div class="col-11">
+          <h3>Partners</h3>
+          <p>Invite other users for full account access and company management</p>
+        </div>
+        <div class="col-1">
+          <h2>$9</h2>
+          <p>/month</p>
+        </div>
+      </div>
+      <div class="col d-flex my-2 s5b">
+        <div class="col-11">
+          <h3>Bonsai Tax</h3>
+          <p>Track expenses,identify write-offs,and estimate quarterly taxes easily</p>
+          <a href="" style="color: rgb(1 179 137) ">learn more ></a>
+        </div>
+        <div class="col-1">
+          <h2>$10</h2>
+          <p>/month</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 6 -->
+    <div class="row section6 my-5">
+      <div class="col d-flex s6c">
+        <div class="col-10" style="width: fit-content">
+          <h1>It's <span style="color: rgb(1 179 137)">your</span> business </h1>
+          <h1>We are here to help it grow</h1>
+        </div>
+        <div class="col-2">
+          <a href="start.txt"><button class="btn btn-success " style="background-color: rgb(1 179 137)">START FREE</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row faq" style="color: rgb(1 179 137)">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <!-- section 7 -->
+    <div class="row section7 my-5">
+      <div class="col s7c">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-toggle="collapse"
+                data-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+               How does the 14 day free trial work ?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>During the trial period you will have access </strong> to all of the premium features for free. After the 14 day trial period you will automatically be signed up for the Premium (monthly) subscription if you don't cancel your account before the trial ends.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                data-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                Can I change plan any time ?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>You can change your plan at any time.</strong> The upgrade will occur as soon as we receive your payment, whereas the downgrade will only be reflected in your next billing cycle. <br> To change your plan, simply select the desired account type on our Pricing page and click <strong>Order now</strong>.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                data-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                How does I pause my Bonsai subscription ?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>When you pause a subscription, your subscription will pause at the end of your current billing period.</strong>
+                <ol>
+                  <li type="" >Open the Google Play app .</li> 
+                  <li type="" >At the top right, tap the profile icon.</li> 
+                  <li type="" >Tap Payments & subscriptions. Subscriptions.</li> 
+                  <li type="" >Select the subscription you want to pause.</li> 
+                  <li type="" >Tap Manage. ...</li> 
+                  <li>Set the time period to pause payments.</li>
+                  <li>Tap Confirm.</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+              <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                data-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapsefour">
+                What is your refund policy ?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingfour">
+              <div class="accordion-body">
+                <strong>If you’re looking to return or exchange</strong> your order for whatever reason, we're here to help! We offer free returns or exchanges within 30 days of receiving your order. You can return your product for store credit, a different product, or a refund to the original payment method.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+       
+    <!-- footer -->
+         <div class="row footer">
+          <div class="col-3">
+            <h3>PRODUCT</h3>
+            <ul style="list-style:none">
+              <a href=""><li>Proposal  </li></a>
+              <a href=""><li>Contract</li></a>
+              <a href=""><li>Invoicing</li></a>
+              <a href=""><li>Client CRM</li></a>
+              <a href=""><li>Time Tracking</li></a>
+              <a href=""><li>Task Tracking</li></a>
+              <a href=""><li>Forms</li></a>
+              <a href=""><li>Accounting</li></a>
+              <a href=""><li>Bonsai Tax</li></a>
+              <a href=""><li>Bonsai Cash</li></a>
+              <br>
+             <h6 style="color: rgb(1 179 137)"  >Princing</h6>
+              <a href=""><li>Bonsai Reviews</li></a>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h3>FREE RESOURSES</h3>
+            <ul style="list-style:none">
+              <a href=""><li>Freelance Resources</li></a>
+              <a href=""><li>Freelance Blog by Bonsai</li></a>
+              <a href=""><li>How to write a contract</li></a>
+              <a href=""><li>Online Signature Maker</li></a>
+              <br>
+              <a href=""><li>Self-Employed Taxes Hub</li></a>
+              <a href=""><li>Self-Employedf Tax Calculator</li></a>
+              <a href=""><li>Self-Employedf Tax Deductions</li></a>
+              <br>
+              <h4>Templates</h4> 
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Invoice Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                   Proposal Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Contract Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Agreement Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Scope of Work Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle fdm" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Quote Templates
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+             <a href=""><li>Credit Note Templates</li></a>
+             <a href=""><li>Estimate Templates</li></a>
+
+          </div>
+          <div class="col-3 flc">
+            <h3>BONSAI</h3>
+            <ul style="list-style:none">
+              <a href=""><li>About</li></a>
+              <a href=""><li>Careers</li></a>
+              <a href=""><li>Support</li></a>
+              <a href=""><li>Linkedin</li></a>
+              <a href=""><li>Twitter</li></a>
+              <a href=""><li>Privacy</li></a>
+              <a href=""><li>Legal</li></a>
+              <br>
+              <a href=""><li>Affilates</li></a>
+              <a href=""><li>Write for Us</li></a>
+              <br>
+              <li>
+                <div class="dropdown">
+                  <p class=" dropdown-toggle fdm" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Comparisions
+                  </p>
+                  <ul class="dropdown-menu dropdown-menu-light">
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+         </div>
+
+  </div>
+
+</body>
+
+</html>

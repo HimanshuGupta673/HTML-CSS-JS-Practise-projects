@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow: hidden;
+}
+.sky{
+    height: 100vh;
+    width: 110vw;
+    background-image: url('background.jpg');
+    position: absolute;
+}
+.trees{
+    width: 110vw;
+    height: 100vh;
+    background-image: url('trees.png');
+    background-size: cover;
+    position: absolute;
+    top: -299px;
+}
+.tracks{
+    width: 700vw;
+    height: 40vh;
+    background-image: url('track.png');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    top: 60vh;
+    animation: trackMotion linear 6s infinite;
+}
+.car{
+    width: 380px;
+    height: 100px;
+    background-image: url('car_body.png');
+    background-size: cover;
+    position: absolute;
+    top: 49vh;
+    left: 30vw;
+    animation: shake linear 1s infinite;
+}
+.wheel1 img{
+    width: 68px;
+    position: relative;
+    top: 44px;
+    left: 47px;
+    animation: wheelRotation linear .4s infinite;
+}
+
+.wheel2 img{
+    width: 74px;
+    position: relative;
+    top: -31px;
+    left: 237px;
+    animation: wheelRotation linear .4s infinite;
+}
+@keyframes wheelRotation{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes trackMotion{
+    100%{
+        transform: translateX(-500vw);
+    }
+}
+@keyframes shake{
+    0%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(4px);
+    }
+    100%{
+        transform: translateY(-4px);
+    }
+}
+@media (max-width:1700px) {
+    .sky{
+        height: 600vh;
+        width: 2100vw;
+        background-image: url('background.jpg');
+        background-size: cover;
+        position: absolute;
+    }
+    .tracks{
+      width: 900vw;
+    height: 105vh;
+    background-image: url(track.png);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    top: 295vh;
+    /* bottom: 96vh; */
+    animation: trackMotion linear 6s infinite;
+    }
+    .trees{
+            width: 402vw;
+            height: 214vh;
+            background-image: url(trees.png);
+            background-size: cover;
+            position: absolute;
+            top: 796px;
+    }
+    .car{
+        width: 415px;
+        height: 107px;
+        background-image: url(car_body.png);
+        background-size: cover;
+        position: absolute;
+        top: 298vh;
+        left: 101vw;
+        animation: shake linear 1s infinite;
+    }
+    .wheel1 img{
+        width: 68px;
+        position: relative;
+        top: 48px;
+        left: 56px;
+        animation: wheelRotation linear .4s infinite;
+    }
+    
+    .wheel2 img{
+        width: 74px;
+        position: relative;
+        top: -27px;
+        left: 260px;
+        animation: wheelRotation linear .4s infinite;
+    }
+}
+
+/* @keyframes cloud{
+    100%{
+        transform: ;
+    }
+} */

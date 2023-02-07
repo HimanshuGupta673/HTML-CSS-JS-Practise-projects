@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Inspiration&family=Ms+Madi&family=Roboto&display=swap');
+
+body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+/* .row1{
+   
+    
+} */
+.submit{
+    background-color: rgb(56, 55, 55);
+    border: 1px solid white;
+    height:min-content;
+}
+.mainnav{
+    border-top: 20px solid white;
+}
+.section2{
+    height: 35vh;
+    background-color:#dbdcf3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    width: 30vw;
+    margin: auto;
+}
+.jumbotron{
+    position: absolute;
+    top: 18vh;
+}
+.section3{
+    height: min-content;
+   
+    /* background-color: antiquewhite; */
+}
+.r1{
+    height: min-content;
+    margin-top: 130px;
+    /* padding: 0px 70px; */
+}
+.r11{
+    /* border: 2px solid black; */
+    padding: 0px 80px;
+}
+.r2{
+    margin-top: 80px;
+}
+@media (max-width:983px) {
+    .r11{
+        margin-top: 130px;
+    }
+    .r1{
+        margin-top: 0px
+    }
+    .r2{
+        margin-top: 0px;
+    } 
+    .section3{
+        width: fit-content;
+    }
+    .section4{
+        width: 32.5rem;
+    }
+    .search{
+        width: auto;
+    }
+}
+@media (max-width:516px) {
+    .section22{
+        width: 32rem;
+    }
+}
+@media (min-width:745px ) and (max-width:979px){
+    .section4{
+        width: auto;
+    }
+}
+@media (min-width:979px ) and (max-width:983px){
+    .section4{
+        width: auto;
+    }
+}
+
+
+ul{
+    padding: 0%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section4 ul li a:hover{
+    text-decoration-line: underline;
+    color: aliceblue;
+}
+.section4 ul li a{
+    text-decoration: none;
+    color:white;
+}
+.section4{
+    color: white;
+    padding: 0px 40px;
+    /* border-radius: 20px; */
+}
+.marginbottom{
+    margin-bottom: 70px;
+}
+.col4{
+    padding-top: 120px;
+}
+/* .lastrow{
+    height: 30px;
+   
+} */
